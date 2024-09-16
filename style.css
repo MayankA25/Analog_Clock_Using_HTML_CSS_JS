@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clock img{
+    margin: auto;
+    display: flex;
+    height: 40vw;
+}
+
+.hands .hour{
+    border: 0.25vw solid black;
+    border-radius: 5px;
+    /* border-radius: 5px; */
+    width: 8vw;
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    top: 20vw;
+}
+
+.hands .minutes{
+    border: 0.2vw solid black;
+    border-radius: 5px;
+    width: 12vw;
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    top: 20vw;
+
+}
+
+.hands .seconds{
+    border: 0.1vw solid black;
+    width: 14vw;
+    position: absolute;
+    top: 0;
+    left: 50vw;
+    top: 20vw;
+}
